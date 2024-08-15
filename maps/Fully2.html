@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4745c414a0d1ee4100dce94309e3b515 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4745c414a0d1ee4100dce94309e3b515" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4745c414a0d1ee4100dce94309e3b515 = L.map(
+                "map_4745c414a0d1ee4100dce94309e3b515",
+                {
+                    center: [32.39411764705883, -29.058823529411764],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cfdcd9529f7b81a61f21e42eab2f5e42 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_cfdcd9529f7b81a61f21e42eab2f5e42.addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            tile_layer_cfdcd9529f7b81a61f21e42eab2f5e42.addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            var circle_3e8b38423f58474c6eca516f7e78a923 = L.circle(
+                [40.7, -74.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_3e8b38423f58474c6eca516f7e78a923.bindTooltip(
+                `<div>
+                     New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1bcf15102bb688d5a3bc6c6696f30bf6 = L.circle(
+                [55.0, -74.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_1bcf15102bb688d5a3bc6c6696f30bf6.bindTooltip(
+                `<div>
+                     Northern Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f4c9e5034fb3ee8de0cf6c15e51706f6 = L.circle(
+                [55.0, 14.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_f4c9e5034fb3ee8de0cf6c15e51706f6.bindTooltip(
+                `<div>
+                     Southern Sweden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f697fb32e39b9fd195007fc01f84231c = L.circle(
+                [50.0, -119.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_f697fb32e39b9fd195007fc01f84231c.bindTooltip(
+                `<div>
+                     British Columbia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_905170d6135edcc246ac271eb75df56a = L.circle(
+                [50.0, -104.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_905170d6135edcc246ac271eb75df56a.bindTooltip(
+                `<div>
+                     Saskatchewan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ce13f0913c40fce61abc803527d133b1 = L.circle(
+                [50.0, 29.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_ce13f0913c40fce61abc803527d133b1.bindTooltip(
+                `<div>
+                     Ukraine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_60a9a9aefdf8e53d7640d3ff5d4de430 = L.circle(
+                [50.0, 44.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_60a9a9aefdf8e53d7640d3ff5d4de430.bindTooltip(
+                `<div>
+                     Eastern Europe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9421849802edd781436a9b1be71e762f = L.circle(
+                [30.0, -89.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_9421849802edd781436a9b1be71e762f.bindTooltip(
+                `<div>
+                     Gulf of Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2ec35f554aca733eac65f9e3a212b290 = L.circle(
+                [30.0, 29.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_2ec35f554aca733eac65f9e3a212b290.bindTooltip(
+                `<div>
+                     Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_256cf20052d46c21864eb7c6681e26a2 = L.circle(
+                [30.0, 44.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_256cf20052d46c21864eb7c6681e26a2.bindTooltip(
+                `<div>
+                     Saudi Arabia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6fc53b1208d13595a8afc253c6bc9474 = L.circle(
+                [30.0, 59.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_6fc53b1208d13595a8afc253c6bc9474.bindTooltip(
+                `<div>
+                     Western Iran
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_28c808b44225859ada65d0e8ef03b3b3 = L.circle(
+                [20.0, -104.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_28c808b44225859ada65d0e8ef03b3b3.bindTooltip(
+                `<div>
+                     Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f1c6da468cbfe5e414c9f287c6ba2314 = L.circle(
+                [20.0, -89.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_f1c6da468cbfe5e414c9f287c6ba2314.bindTooltip(
+                `<div>
+                     Yucatan Peninsula
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_440c89b34c9faf47aaad550351ea5f17 = L.circle(
+                [20.0, -44.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_440c89b34c9faf47aaad550351ea5f17.bindTooltip(
+                `<div>
+                     Mid-Atlantic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_500f0fbffde6dd53e6a7b54e1766d4b6 = L.circle(
+                [20.0, 44.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_500f0fbffde6dd53e6a7b54e1766d4b6.bindTooltip(
+                `<div>
+                     Oman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c45ba1725844356dad6ae6edc25c5371 = L.circle(
+                [0.0, -119.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_c45ba1725844356dad6ae6edc25c5371.bindTooltip(
+                `<div>
+                     Ecuador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9d16eac1a5403649127602b32c950aa0 = L.circle(
+                [0.0, 59.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            circle_9d16eac1a5403649127602b32c950aa0.bindTooltip(
+                `<div>
+                     Maldives
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_cfdcd9529f7b81a61f21e42eab2f5e42.addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            var poly_line_c5506fd3905778de602cda38c7789a94 = L.polyline(
+                [[[40.7, -74.0], [55.0, -74.0]], [[40.7, -74.0], [55.0, 14.0]], [[40.7, -74.0], [50.0, -119.0]], [[40.7, -74.0], [50.0, -104.0]], [[40.7, -74.0], [50.0, 29.0]], [[40.7, -74.0], [50.0, 44.0]], [[40.7, -74.0], [30.0, -89.0]], [[40.7, -74.0], [30.0, 29.0]], [[40.7, -74.0], [30.0, 44.0]], [[40.7, -74.0], [30.0, 59.0]], [[40.7, -74.0], [20.0, -104.0]], [[40.7, -74.0], [20.0, -89.0]], [[40.7, -74.0], [20.0, -44.0]], [[40.7, -74.0], [20.0, 44.0]], [[40.7, -74.0], [0.0, -119.0]], [[40.7, -74.0], [0.0, 59.0]], [[55.0, -74.0], [55.0, 14.0]], [[55.0, -74.0], [50.0, -119.0]], [[55.0, -74.0], [50.0, -104.0]], [[55.0, -74.0], [50.0, 29.0]], [[55.0, -74.0], [50.0, 44.0]], [[55.0, -74.0], [30.0, -89.0]], [[55.0, -74.0], [30.0, 29.0]], [[55.0, -74.0], [30.0, 44.0]], [[55.0, -74.0], [30.0, 59.0]], [[55.0, -74.0], [20.0, -104.0]], [[55.0, -74.0], [20.0, -89.0]], [[55.0, -74.0], [20.0, -44.0]], [[55.0, -74.0], [20.0, 44.0]], [[55.0, -74.0], [0.0, -119.0]], [[55.0, -74.0], [0.0, 59.0]], [[55.0, 14.0], [50.0, -119.0]], [[55.0, 14.0], [50.0, -104.0]], [[55.0, 14.0], [50.0, 29.0]], [[55.0, 14.0], [50.0, 44.0]], [[55.0, 14.0], [30.0, -89.0]], [[55.0, 14.0], [30.0, 29.0]], [[55.0, 14.0], [30.0, 44.0]], [[55.0, 14.0], [30.0, 59.0]], [[55.0, 14.0], [20.0, -104.0]], [[55.0, 14.0], [20.0, -89.0]], [[55.0, 14.0], [20.0, -44.0]], [[55.0, 14.0], [20.0, 44.0]], [[55.0, 14.0], [0.0, -119.0]], [[55.0, 14.0], [0.0, 59.0]], [[50.0, -119.0], [50.0, -104.0]], [[50.0, -119.0], [50.0, 29.0]], [[50.0, -119.0], [50.0, 44.0]], [[50.0, -119.0], [30.0, -89.0]], [[50.0, -119.0], [30.0, 29.0]], [[50.0, -119.0], [30.0, 44.0]], [[50.0, -119.0], [30.0, 59.0]], [[50.0, -119.0], [20.0, -104.0]], [[50.0, -119.0], [20.0, -89.0]], [[50.0, -119.0], [20.0, -44.0]], [[50.0, -119.0], [20.0, 44.0]], [[50.0, -119.0], [0.0, -119.0]], [[50.0, -119.0], [0.0, 59.0]], [[50.0, -104.0], [50.0, 29.0]], [[50.0, -104.0], [50.0, 44.0]], [[50.0, -104.0], [30.0, -89.0]], [[50.0, -104.0], [30.0, 29.0]], [[50.0, -104.0], [30.0, 44.0]], [[50.0, -104.0], [30.0, 59.0]], [[50.0, -104.0], [20.0, -104.0]], [[50.0, -104.0], [20.0, -89.0]], [[50.0, -104.0], [20.0, -44.0]], [[50.0, -104.0], [20.0, 44.0]], [[50.0, -104.0], [0.0, -119.0]], [[50.0, -104.0], [0.0, 59.0]], [[50.0, 29.0], [50.0, 44.0]], [[50.0, 29.0], [30.0, -89.0]], [[50.0, 29.0], [30.0, 29.0]], [[50.0, 29.0], [30.0, 44.0]], [[50.0, 29.0], [30.0, 59.0]], [[50.0, 29.0], [20.0, -104.0]], [[50.0, 29.0], [20.0, -89.0]], [[50.0, 29.0], [20.0, -44.0]], [[50.0, 29.0], [20.0, 44.0]], [[50.0, 29.0], [0.0, -119.0]], [[50.0, 29.0], [0.0, 59.0]], [[50.0, 44.0], [30.0, -89.0]], [[50.0, 44.0], [30.0, 29.0]], [[50.0, 44.0], [30.0, 44.0]], [[50.0, 44.0], [30.0, 59.0]], [[50.0, 44.0], [20.0, -104.0]], [[50.0, 44.0], [20.0, -89.0]], [[50.0, 44.0], [20.0, -44.0]], [[50.0, 44.0], [20.0, 44.0]], [[50.0, 44.0], [0.0, -119.0]], [[50.0, 44.0], [0.0, 59.0]], [[30.0, -89.0], [30.0, 29.0]], [[30.0, -89.0], [30.0, 44.0]], [[30.0, -89.0], [30.0, 59.0]], [[30.0, -89.0], [20.0, -104.0]], [[30.0, -89.0], [20.0, -89.0]], [[30.0, -89.0], [20.0, -44.0]], [[30.0, -89.0], [20.0, 44.0]], [[30.0, -89.0], [0.0, -119.0]], [[30.0, -89.0], [0.0, 59.0]], [[30.0, 29.0], [30.0, 44.0]], [[30.0, 29.0], [30.0, 59.0]], [[30.0, 29.0], [20.0, -104.0]], [[30.0, 29.0], [20.0, -89.0]], [[30.0, 29.0], [20.0, -44.0]], [[30.0, 29.0], [20.0, 44.0]], [[30.0, 29.0], [0.0, -119.0]], [[30.0, 29.0], [0.0, 59.0]], [[30.0, 44.0], [30.0, 59.0]], [[30.0, 44.0], [20.0, -104.0]], [[30.0, 44.0], [20.0, -89.0]], [[30.0, 44.0], [20.0, -44.0]], [[30.0, 44.0], [20.0, 44.0]], [[30.0, 44.0], [0.0, -119.0]], [[30.0, 44.0], [0.0, 59.0]], [[30.0, 59.0], [20.0, -104.0]], [[30.0, 59.0], [20.0, -89.0]], [[30.0, 59.0], [20.0, -44.0]], [[30.0, 59.0], [20.0, 44.0]], [[30.0, 59.0], [0.0, -119.0]], [[30.0, 59.0], [0.0, 59.0]], [[20.0, -104.0], [20.0, -89.0]], [[20.0, -104.0], [20.0, -44.0]], [[20.0, -104.0], [20.0, 44.0]], [[20.0, -104.0], [0.0, -119.0]], [[20.0, -104.0], [0.0, 59.0]], [[20.0, -89.0], [20.0, -44.0]], [[20.0, -89.0], [20.0, 44.0]], [[20.0, -89.0], [0.0, -119.0]], [[20.0, -89.0], [0.0, 59.0]], [[20.0, -44.0], [20.0, 44.0]], [[20.0, -44.0], [0.0, -119.0]], [[20.0, -44.0], [0.0, 59.0]], [[20.0, 44.0], [0.0, -119.0]], [[20.0, 44.0], [0.0, 59.0]], [[0.0, -119.0], [0.0, 59.0]]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 0.2}
+            ).addTo(map_4745c414a0d1ee4100dce94309e3b515);
+        
+    
+            poly_line_c5506fd3905778de602cda38c7789a94.bindTooltip(
+                `<div>
+                     All connected node
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b8dee11df397210630cb9bda1d3af1d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b8dee11df397210630cb9bda1d3af1d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b8dee11df397210630cb9bda1d3af1d = L.map(
+                "map_7b8dee11df397210630cb9bda1d3af1d",
+                {
+                    center: [36.99617692307692, -99.50436923076921],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f483d54eba7b8204cbd3bf653a604924 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_f483d54eba7b8204cbd3bf653a604924.addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            tile_layer_f483d54eba7b8204cbd3bf653a604924.addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            var circle_1e6c65b7c2c889e8884da2e68999314d = L.circle(
+                [24.555, -81.8243],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_1e6c65b7c2c889e8884da2e68999314d.bindTooltip(
+                `<div>
+                     Key_West_Florida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9c9a419747c4b536b8170a7cad43b6ad = L.circle(
+                [41.8781, -87.6298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_9c9a419747c4b536b8170a7cad43b6ad.bindTooltip(
+                `<div>
+                     Chicago_Illinois
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3802d1c9bae8ed6d407f44df974784ac = L.circle(
+                [47.6062, -122.3321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_3802d1c9bae8ed6d407f44df974784ac.bindTooltip(
+                `<div>
+                     Seattle_Washington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4610137a002d74f5941a3549b08c214d = L.circle(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_4610137a002d74f5941a3549b08c214d.bindTooltip(
+                `<div>
+                     New_York_City_New_York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7ea598da1d6cdf6bd03d94feff0f9d80 = L.circle(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_7ea598da1d6cdf6bd03d94feff0f9d80.bindTooltip(
+                `<div>
+                     Los_Angeles_California
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f9e0a2500fe2c77ed5e34dbefa3a3dd6 = L.circle(
+                [33.7489, -84.3879],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_f9e0a2500fe2c77ed5e34dbefa3a3dd6.bindTooltip(
+                `<div>
+                     Atlanta_Georgia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ff262a4217ffef8adff2276e1fe1e1c7 = L.circle(
+                [32.7767, -96.797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_ff262a4217ffef8adff2276e1fe1e1c7.bindTooltip(
+                `<div>
+                     Dallas_Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4015f176dd22df2ff0b37399d4920576 = L.circle(
+                [44.9778, -93.265],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_4015f176dd22df2ff0b37399d4920576.bindTooltip(
+                `<div>
+                     Minneapolis_Minnesota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e7862d08e9de0d76e0df3d167cd1cf12 = L.circle(
+                [33.4484, -112.074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_e7862d08e9de0d76e0df3d167cd1cf12.bindTooltip(
+                `<div>
+                     Phoenix_Arizona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9a07741853e491f4af1fc2400ef123bd = L.circle(
+                [25.7617, -80.1918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_9a07741853e491f4af1fc2400ef123bd.bindTooltip(
+                `<div>
+                     Miami_Florida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_80d03190dd8bcedeae04d802df0e3f64 = L.circle(
+                [36.1699, -115.1398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_80d03190dd8bcedeae04d802df0e3f64.bindTooltip(
+                `<div>
+                     Las_Vegas_Nevada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9e3b9f5a12990cd53e32776f31e81cd = L.circle(
+                [45.5234, -122.6751],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_e9e3b9f5a12990cd53e32776f31e81cd.bindTooltip(
+                `<div>
+                     Portland_Oregon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_107b0b15cc6394c08400bfaaa400463c = L.circle(
+                [39.7392, -104.9903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000, "stroke": true, "weight": 3}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            circle_107b0b15cc6394c08400bfaaa400463c.bindTooltip(
+                `<div>
+                     Denver_Colorado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_f483d54eba7b8204cbd3bf653a604924.addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            var poly_line_eaf2d07b641c9603459cb48bbd6d7a0d = L.polyline(
+                [[39.7392, -104.9903], [44.9778, -93.265], [47.6062, -122.3321], [45.5234, -122.6751], [34.0522, -118.2437], [36.1699, -115.1398], [33.4484, -112.074], [39.7392, -104.9903]],
+                {"bubblingMouseEvents": true, "color": "#ff6f00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ff6f00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            poly_line_eaf2d07b641c9603459cb48bbd6d7a0d.bindTooltip(
+                `<div>
+                     TSP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_16dca6c360e6729e10d96e7bcfbd7f9b = L.polyline(
+                [[39.7392, -104.9903], [32.7767, -96.797], [24.555, -81.8243], [25.7617, -80.1918], [33.7489, -84.3879], [40.7128, -74.006], [41.8781, -87.6298], [39.7392, -104.9903]],
+                {"bubblingMouseEvents": true, "color": "#ff6f00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ff6f00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_7b8dee11df397210630cb9bda1d3af1d);
+        
+    
+            poly_line_16dca6c360e6729e10d96e7bcfbd7f9b.bindTooltip(
+                `<div>
+                     TSP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
